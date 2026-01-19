@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chemiria</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <!-- Navegação do site -->
+    <nav>
+        <ul class="nav-links">
+            <li id="link1" class="link"><a href="#inicio">Início</a></li>
+            <li id="link2" class="link"><a href="#recursos">Recursos</a></li>
+            <li id="link3" class="link"><a href="#sobre">Sobre</a></li>
+        </ul>
+
+        <button id="theme-toggle" class="btn">
+            Modo Escuro
+        </button>
+    </nav>
+
+    <!-- Cabeçalho do site -->
+    <header class="container">
+
+        <div class="content">
+            <span class="blur"></span>
+            <span class="blur"></span>
+            <h1>Chemiria Nexus</h1>
+            <h2>Gerencie seus compromissos de forma fácil e rápida</h2>
+        </div>
+
+    </header>
+
+    <!-- Conteúdo principal do site -->
+    <main>
+
+        <section id="login" class="content-login">
+            <h2>Faça Login na Sua Conta</h2>
+            <form>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="password">Senha:</label>
+                <input type="password" id="password" name="password" required>
+
+                <button type="submit" class="btn">Entrar</button>
+            </form>
+        </section>
+
+        <section id="inicio" class="content-about">
+            <h3>Bem-vindo ao Chemiria Nexus!</h3>
+            <p>
+                O Chemiria Nexus é uma plataforma inovadora que ajuda você a organizar seus compromissos e tarefas
+                diárias de maneira eficiente.
+            </p>
+        </section>
+
+        <section id="recursos" class="content-about">
+            <h3>Recursos Principais</h3>
+            <ul>
+                <li>Agenda personalizada para seus compromissos</li>
+                <li>Lembretes automáticos para não perder nenhum evento importante</li>
+                <li>Interface amigável e fácil de usar</li>
+                <li>Sincronização com outros dispositivos</li>
+            </ul>
+        </section>
+
+        <section id="sobre" class="content-about">
+            <h3>Comece Agora!</h3>
+            <p>
+                Inscreva-se hoje mesmo e descubra como o Chemiria Nexus pode transformar a maneira como você gerencia
+                seu
+                tempo. Não perca mais compromissos importantes!
+            </p>
+
+            <div class="content">
+                <section id="contato" class="content-about">
+                    <h2>Ficou interessado? Não deixe de entrar em contato</h2>
+                    <form>
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="fname" name="nome" required>
+                        <br>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                        <br>
+                        <label for="phone">Telefone:</label>
+                        <input type="tel" id="phone" name="telefone" required>
+                        <br>
+                        <button class="btn" onclick="alert('Inscrição realizada com sucesso!')">Inscreva-se
+                            Agora</button>
+                    </form>
+                </section>
+            </div>
+
+        </section>
+    </main>
+
+    <!-- Rodapé do site -->
+    <footer>
+        <ul>
+            <li><a href="#link1">Voltar ao Topo</a></li>
+        </ul>
+        <p>&copy; 2025 Chemiria - Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+
+</html>
